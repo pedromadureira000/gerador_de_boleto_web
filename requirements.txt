@@ -1,0 +1,4 @@
+- Requirements 
+
+apt get install wkhtmltopdf
+apt get install xorg-server
