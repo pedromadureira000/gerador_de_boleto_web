@@ -19,7 +19,6 @@ templates = {
 
 
 def make_boleto(template, fields):
-
     if fields['banco'] == 'sicoob':
         fields['banco'] = 'file://' + os.path.join(
             os.path.dirname(__file__)) + '/templates/bank-logo/sicoob.png'

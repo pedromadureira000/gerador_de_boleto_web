@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.urls import path, include
 from boleto.views import GenBoleto
+from django.contrib import admin
 
 urlpatterns = [
     path('api/user/', include('core.urls')),
     path('api/boleto', GenBoleto.as_view()),
+    path('admin/', admin.site.urls),
 ] 

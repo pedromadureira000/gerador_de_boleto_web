@@ -1,4 +1,12 @@
-- Requirements 
+django
+djangorestframework
+django-role-permissions
+python-decouple
+dj-database-url
+psycopg2-binary
+gunicorn
+pillow
+python-barcode
+pdfkit
+jinja2
 
-apt get install wkhtmltopdf
-apt get install xorg-server
