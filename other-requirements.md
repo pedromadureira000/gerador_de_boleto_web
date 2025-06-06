@@ -1,7 +1,8 @@
 - Requirements 
-
-apt get install wkhtmltopdf
-apt get install xorg-server
+```
+sudo apt-get install wkhtmltopdf
+sudo apt-get install xserver-xorg
+```
 
 
 arch:

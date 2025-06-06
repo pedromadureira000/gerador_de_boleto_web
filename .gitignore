@@ -144,3 +144,5 @@ pnpm-debug.log*
 .editorconfig
 .ropeproject
 
+
+draft/

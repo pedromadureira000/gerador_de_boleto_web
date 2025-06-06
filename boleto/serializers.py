@@ -40,7 +40,7 @@ class FieldsBoletoSerializer(serializers.Serializer):
     mora_multa = serializers.CharField(allow_blank=True, max_length=19, required=False)
     outros_acrescimos = serializers.CharField(allow_blank=True, max_length=19, required=False)
     valor_cobrado = serializers.CharField(allow_blank=True, max_length=22, required=False)
-    CNPJ_pagador = serializers.CharField(max_length=16, required=False)
+    CNPJ_pagador = serializers.CharField(max_length=18, required=False)
     endereco_pagador = serializers.CharField(max_length=115, required=False)
 
     def validate_codigo_barras(self, value):
