@@ -17,6 +17,8 @@
 [class*="col-"] {
   float: left;
   border: 2px solid black;
+  box-sizing: border-box; /* Includes border and padding in the element's total width and height */
+  min-height: 40px; /* Ensures all columns have the same minimum height as the row */
 }
 
 .row { min-height: 40px; }
@@ -140,7 +142,7 @@ br {
         Corte na linha pontilhada.
     </div>
     <div class="linha-corte">
-        --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     </div>
     <br>
     <div class="row">

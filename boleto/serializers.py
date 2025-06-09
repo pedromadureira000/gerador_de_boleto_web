@@ -5,7 +5,7 @@ class FieldsBoletoSerializer(serializers.Serializer):
     banco = serializers.CharField(max_length=6)
     codigo_banco = serializers.CharField(max_length=6, required=False)
     linha_digitavel = serializers.CharField(max_length=61)
-    codigo_barras = serializers.CharField(max_length=43)
+    codigo_barras = serializers.CharField(max_length=44)
     CNPJ_beneficiario = serializers.CharField(max_length=18, required=False)
     beneficiario = serializers.CharField(max_length=62, required=False)
     agencia = serializers.CharField(max_length=10, required=False)
